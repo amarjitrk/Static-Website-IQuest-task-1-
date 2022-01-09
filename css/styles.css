@@ -1,0 +1,75 @@
+/* headings */
+h1 {
+  text-align: center;
+  padding: 30px;
+  font-family: "The Nautigal", cursive;
+  font-size: 4rem;
+}
+h4 {
+  margin: 50px auto;
+  text-align: center;
+  font-weight: 650;
+}
+
+/* image */
+.container img {
+  width: 100%;
+  height: 60%;
+  margin-bottom: 20px;
+}
+
+/* designing the last box */
+.last_box {
+  padding: 0;
+}
+.last_box p {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-size: 2rem;
+  padding: 0.8rem;
+}
+.element1 {
+  background-color: rgb(228, 198, 99);
+}
+.element2 {
+  background-color: aqua;
+}
+.element3 {
+  background-color: rgb(0, 255, 21);
+}
+.element4 {
+  background-color: rgb(255, 251, 0);
+}
+.element5 {
+  background-color: rgb(195, 0, 255);
+}
+
+/* borders */
+.container .outline1 {
+  border: solid black;
+  border-width: 3.5px 2px 0 0;
+}
+.container .outline2 {
+  border: solid black;
+  border-width: 3.5px 0 3.5px 2px;
+}
+.container .first_box {
+  border-left: 2px solid black;
+}
+.container .last_box {
+  border-right: 2px solid black;
+}
+@media screen and (max-width: 765px) {
+  .container .outline1 {
+    border: 2px solid black;
+  }
+  .container .outline2 {
+    border: 2px solid black;
+  }
+  .container img {
+    width: 100%;
+    height: 50%;
+    margin-bottom: 20px;
+  }
+}
